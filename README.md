@@ -2,8 +2,8 @@
 A basic twitter clone built to demonstrate the full stack (client, server, database)
 
 With the same features of Twitter:
- - Anyone can send a tweet
- - Anyone else can see all the tweets that have been sent
+ - Anyone can send a tweed
+ - Anyone else can see all the tweeds that have been sent
 
 ## Client side
 - uses ***Skeleton*** as CSS framework
