@@ -1,5 +1,6 @@
 # Tweeder - Twitter clone
 A basic twitter clone built to demonstrate the full stack (client, server, database)
+![Tweeder sample](https://github.com/carrliitos/TwitterClone/blob/master/sample.png)
 
 With the same features of Twitter:
  - Anyone can send a tweed
