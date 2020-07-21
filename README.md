@@ -6,6 +6,15 @@ With the same features of Twitter:
  - Anyone can send a tweed
  - Anyone else can see all the tweeds that have been sent
 
+## Deployment
+Unfortunately, this project is not hosted yet. So, for deployment you'll need:
+- Node.js and MongoDB
+	- Access the [server folder](https://github.com/carrliitos/TwitterClone/tree/master/server), and run `npm start`
+		- This runs the app in the development mode. 
+		- Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+	- You will also need to install [live-server](https://www.npmjs.com/package/live-server) since node is not initialized for the client side.
+	- Once live-server is installed, access the [client folder](https://github.com/carrliitos/TwitterClone/tree/master/client), and run `live-server`
+
 ## Client side
 - uses ***Skeleton*** as CSS framework
 
