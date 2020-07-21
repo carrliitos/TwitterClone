@@ -6,7 +6,7 @@ With the same features of Twitter:
  - Anyone can send a tweed
  - Anyone else can see all the tweeds that have been sent
 
-## Deployment
+# Deployment
 Unfortunately, this project is not hosted yet. So, for deployment you'll need the following dependencies:
 - Node.js and MongoDB
 	- Access the [server folder](https://github.com/carrliitos/TwitterClone/tree/master/server), and run `npm start`
@@ -15,17 +15,17 @@ Unfortunately, this project is not hosted yet. So, for deployment you'll need th
 	- You will also need to install [live-server](https://www.npmjs.com/package/live-server) since node is not initialized for the client side.
 	- Once live-server is installed, access the [client folder](https://github.com/carrliitos/TwitterClone/tree/master/client), and run `live-server`
 
-## Client side
+### Client side
 - uses [***Skeleton***](http://getskeleton.com/) as CSS framework
 
-## Server side
+### Server side
 - Uses [***Express***](https://expressjs.com/) package as framework to listen for requests that come from client.
 - Uses [***Morgan***](https://www.npmjs.com/package/morgan) package as middleware library which will log all incoming requests for debug purposes.
 - Uses [***CORS***](https://www.npmjs.com/package/cors) package as middleware library which uses additional HTTP headers to tell browsers to give a web application running at one origin, access to selected resources from a different origin.
 - Uses [***bad-words***](https://www.npmjs.com/package/bad-words) package for filtering out unnecessary and unclean tweeds.
 - Uses [***Express Rate Limit***](https://www.npmjs.com/package/express-rate-limit) middleware for Express to limit repeated requests to server.
 
-## Database
+### Database
 - Uses [***MongoDB***](https://www.mongodb.com/) as the main database program.
 - Uses [***Monk***](https://www.npmjs.com/package/monk) as a library to connect to MongoDB.
 
