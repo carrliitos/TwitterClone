@@ -7,7 +7,7 @@ With the same features of Twitter:
  - Anyone else can see all the tweeds that have been sent
 
 ## Deployment
-Unfortunately, this project is not hosted yet. So, for deployment you'll need:
+Unfortunately, this project is not hosted yet. So, for deployment you'll need the following dependencies:
 - Node.js and MongoDB
 	- Access the [server folder](https://github.com/carrliitos/TwitterClone/tree/master/server), and run `npm start`
 		- This runs the app in the development mode. 
