@@ -16,18 +16,18 @@ Unfortunately, this project is not hosted yet. So, for deployment you'll need:
 	- Once live-server is installed, access the [client folder](https://github.com/carrliitos/TwitterClone/tree/master/client), and run `live-server`
 
 ## Client side
-- uses ***Skeleton*** as CSS framework
+- uses [***Skeleton***](http://getskeleton.com/) as CSS framework
 
 ## Server side
-- Uses ***Express*** package as framework to listen for requests that come from client.
-- Uses ***Morgan*** package as middleware library which will log all incoming requests for debug purposes.
-- Uses ***CORS*** package as middleware library which uses additional HTTP headers to tell browsers to give a web application running at one origin, access to selected resources from a different origin.
-- Uses ***bad-words*** package for filtering out unnecessary and unclean tweeds.
-- Uses ***rate-limiting*** middleware for Express to limit repeated requests to server.
+- Uses [***Express***](https://expressjs.com/) package as framework to listen for requests that come from client.
+- Uses [***Morgan***](https://www.npmjs.com/package/morgan) package as middleware library which will log all incoming requests for debug purposes.
+- Uses [***CORS***](https://www.npmjs.com/package/cors) package as middleware library which uses additional HTTP headers to tell browsers to give a web application running at one origin, access to selected resources from a different origin.
+- Uses [***bad-words***](https://www.npmjs.com/package/bad-words) package for filtering out unnecessary and unclean tweeds.
+- Uses [***Express Rate Limit***](https://www.npmjs.com/package/express-rate-limit) middleware for Express to limit repeated requests to server.
 
 ## Database
-- Uses ***MongoDB*** as the main database program.
-- Uses ***Monk*** as a library to connect to MongoDB.
+- Uses [***MongoDB***](https://www.mongodb.com/) as the main database program.
+- Uses [***Monk***](https://www.npmjs.com/package/monk) as a library to connect to MongoDB.
 
 # TODO
 - [ ] Deploy backend
