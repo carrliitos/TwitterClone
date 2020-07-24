@@ -30,8 +30,7 @@ Unfortunately, this project is not hosted yet. So, for deployment you'll need th
 - Uses [***Monk***](https://www.npmjs.com/package/monk) as a library to connect to MongoDB.
 
 # TODO
-- [ ] Deploy backend
-- [ ] Deploy frontend
+- [ ] Deployment
 - [ ] Add comments/replies to a tweed
 - [ ] User accounts
 	- instead of users just entering their name
